@@ -8,7 +8,7 @@ import java.io.File;
 public class Ejercicio4 {
 
 	public static void main(String[] args) {
-		System.out.println("Ejercicio 3\n");
+		System.out.println("Ejercicio 4\n");
 		String directorio = args[0];
 		System.out.println("Directorio: " + directorio);
 		File file = new File(directorio);
