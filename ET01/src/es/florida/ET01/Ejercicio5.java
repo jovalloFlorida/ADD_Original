@@ -12,13 +12,11 @@ public class Ejercicio5 {
 		String directorio = args[0];
 		System.out.println("Directorio: " + directorio);
 		File file = new File(directorio);
-		System.out.println("Ruta absoluta? " + file.getAbsolutePath());
+		//System.out.println("Ruta absoluta? " + file.getAbsolutePath());
 		FiltroExtension filtro = new FiltroExtension(args[1]);
 		String[] lista = file.list(filtro);
 		for (String elemento : lista) {
 			System.out.println(elemento);
 		}
-
 	}
-
 }
