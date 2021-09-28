@@ -1,3 +1,5 @@
+//Ejercicio 1. Realiza un programa que reciba como parámetro de entrada un directorio y lo muestre por pantalla.
+
 package es.florida.ET01;
 
 public class Ejercicio1 {
